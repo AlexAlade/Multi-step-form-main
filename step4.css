@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: whitesmoke;
+}
+
+.sidebar {
+    background-color: blue;
+    padding: 0 60px;
+    margin-left: 250px;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+.whole {
+    display: flex;
+    margin-top: 13vh;
+}
+
+.right {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 250px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    background-color: white;
+    font-weight: bold;
+}
+
+h2 {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+h4 {
+    background-color: white;
+    font-weight: 400;
+}
+
+a {
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+    float: none;
+    border-radius: 10px;
+}
+
+.back {
+    background-color: white;
+    color: gray;
+    margin-top: 20px;
+    float: left;
+  }
+
+  .next {
+    float: right;
+    margin-top: 20px;
+  }
+
+  .prices {
+    background-color: rgb(223, 221, 221);
+    padding-bottom: 12px;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .change {
+    background-color: rgb(223, 221, 221);
+    text-decoration: underline;
+    border-radius: 0px;
+  }
+
+  .arcade {
+    font-weight: bold;
+    color: navy;
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+
+  hr {
+    margin-top: 22px;
+    border: none;
+    width: 400px;
+    height: 1px;
+    /* Set the hr color */
+    color: rgb(177, 174, 174);  /* old IE */
+    background-color: rgb(177, 174, 174);  /* Modern Browsers */
+  }
+
+  .total {
+    padding-top: 10px;
+  }
+
+  .total-calc {
+    display: flex;
+  }
+
+  .total-price {
+    padding-left: 350px;
+    color: blue;
+  }

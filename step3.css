@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: whitesmoke;
+}
+
+.sidebar {
+    background-color: blue;
+    padding: 0 60px;
+    margin-left: 250px;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+.whole {
+    display: flex;
+    margin-top: 13vh;
+}
+
+.right {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 250px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    background-color: white;
+    font-weight: bold;
+}
+
+h2 {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+h4 {
+    background-color: white;
+    font-weight: 400;
+}
+
+.header4 {
+    color: navy;
+    font-weight: 600;
+}
+
+.online {
+    display: flex;
+    border: 2px solid navy;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.online:hover {
+    background-color: blue;
+}
+
+.larger {
+    display: flex;
+    border: 2px solid navy;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+a {
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+    float: none;
+    border-radius: 10px;
+}
+
+.back {
+    background-color: white;
+    color: gray;
+    margin-top: 20px;
+    float: left;
+  }
+
+  .next {
+    float: right;
+    margin-top: 20px;
+  }

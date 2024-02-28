@@ -1,0 +1,92 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: whitesmoke;
+}
+
+.sidebar {
+    background-color: blue;
+    padding: 0 60px;
+    margin-left: 250px;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+.whole {
+    display: flex;
+    margin-top: 20vh;
+}
+
+.right {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 250px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    background-color: white;
+    font-weight: bold;
+}
+
+h2 {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    background-color: blue;
+    color: white;
+}
+
+h4 {
+    background-color: white;
+    font-weight: 400;
+}
+
+p {
+    background-color: white;
+    color: gray;
+}
+
+::placeholder {
+    background-color: white;
+    color: grey;
+}
+
+input {
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    border: 1px solid navy;
+}
+
+a {
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 13px;
+    float: right;
+    border-radius: 10px;
+}
+
+.name {
+    float: none;
+    background-color: whitesmoke;
+}
+
+.attribution {
+    padding-top: 15px;
+}
+
+.number {
+    float: none;
+}
